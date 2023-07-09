@@ -4,6 +4,21 @@ ul {
 li {
   padding: 10px;
 }
+.cartIcon{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.cartIcon button{
+  margin-bottom: 10px;
+  border-radius: 15px;
+  margin-top: 8px;
+
+}
+.cartIcon button:hover{
+  background-color: green;
+  color: red;
+}
 .cartIcon h3 {
   border: 1px solid #ccc;
   border-radius: 20px;

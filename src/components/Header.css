@@ -12,3 +12,25 @@
   font-family: monospace;
   font-size: 30px;
 }
+.div-head{
+  display: flex;
+  flex-direction: row;
+  align-items:center ;
+}
+.div-head .li-logout{
+ align-items: center;
+ 
+}
+
+.div-head .li-logout button{
+  margin-top: 0;
+  border-radius: 15px;
+  border: 2px solid black;
+  color: blueviolet;
+  font-weight: 700;
+}
+
+.div-head .li-logout button:hover{
+  background-color: blueviolet;
+  color: aliceblue;
+}
